@@ -4,7 +4,78 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* FONT */
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color:hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+  /* CONTAINER */
+.container {
+  max-width: 1440px;
+}
+
+.left-background > img {
+  height: 100vh;
+  position: relative;
+}
+
+.frontcard {
+  background-image: url("./images/bg-card-front.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: block;
+  height: 220px;
+  /* height: 32.29vh; */
+  width: 25vw;
+  position: absolute;
+  top: 15%;
+  left: 8%;
+}
+
+.frontcard > img {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.frontcard-info {
+  margin: 2rem;
+}
+
+.frontcard-info > p {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  padding-bottom: 1rem;
+}
+
+.backcard {
+ background-image: url("./images/bg-card-back.png");
+ background-size: 100%;
+ background-repeat: no-repeat;
+ box-sizing: border-box;
+ display: block;
+ height: 220px;
+ /* height: 32.29vh; */
+ width: 25vw;
+ position: absolute;
+ top: 45%;
+ left: 12%;
+ margin-top: 2rem;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
 
 label {
   display: block;
 }
+
+
+
+/* https://www.frontendmentor.io/solutions/credit-card-form-responsive-grid-css-js-qjxzqoavvw */
