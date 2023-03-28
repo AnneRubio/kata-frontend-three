@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 /* FONT */
   @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
@@ -76,6 +76,13 @@ label {
   display: block;
 }
 
+.cardholderform {
+margin-left: 150px;
+}
+
+input:focus {
+  color: yellow;
+}
 
 
 /* https://www.frontendmentor.io/solutions/credit-card-form-responsive-grid-css-js-qjxzqoavvw */
