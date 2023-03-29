@@ -80,8 +80,14 @@ label {
 margin-left: 150px;
 }
 
-input:focus {
-  color: yellow;
+.inputactive {
+  border-color:hsl(278, 94%, 30%);
+}
+
+.inputerrors {
+  border-color: hsl(0, 100%, 66%);
+  font-size: 0.75rem;
+  color: hsl(0, 100%, 66%);
 }
 
 
